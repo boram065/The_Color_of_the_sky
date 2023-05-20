@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    background: rgb(36,124,255);
+}
+
+/* header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar {
+    width: 60vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+header .navbar span {
+    left: 0px;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+}
+
+header .navbar span a {
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+}
+
+header .navbar .navbar-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar .navbar-menu li{
+    padding: 8px 50px;
+    float: left;
+}
+
+header .navbar .navbar-menu li a{
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+    margin-bottom: 5px;
+}
+
+header .navbar .navbar-menu li a:hover{
+    border-bottom: solid #fff 1px;
+}
