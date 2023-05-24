@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(36,124,255);
+}
+
+.mainTitle {
+    width: 60vw;
+    height: 64px;
+    font-style: Pretendard;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-top: 140px;
+    
+}
+
+.subTitle {
+    font-style: Pretendard;
+    font-size: 15px;
+    color: white;
+    margin-top: -25px;
+}
+
+.box {
+    width: 762px;
+    height: 400px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+.box2 {
+    width: 762px;
+    height: 400px;
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 248px;
+}
