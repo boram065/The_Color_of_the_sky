@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(36,124,255);
+}
+
+.mainTitle {
+    width: 60vw;
+    height: 64px;
+    font-style: Pretendard;
+    font-weight: bold; 
+    font-size: 40px;
+    color: white;
+    margin-top: 140px;
+    
+}
+
+.subTitle {
+    font-style: Pretendard;
+    font-size: 15px;
+    color: white;
+    margin-top: -25px;
+}
+
+.box {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+.rt {
+    width: 264px;
+    height: 288px;
+    margin-left: 46px;
+    margin-top: 56px;
+    float: left;
+}
+
+.rt2 {
+    width: 264px;
+    height: 288px;
+    margin-right: 46px;
+    margin-top: 56px;
+    float: right;
+}
+
+.gbdust {
+    font-family: Pretendard;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 56px;
+    margin-left: 360px;
+    letter-spacing: -2px;
+    
+}
+
+.gbdust2 {
+    font-family: Pretendard;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: -25px;
+    margin-left: 360px;
+    letter-spacing: -2px;
+}
+
+.nbdust {
+    font-family: Pretendard;
+    font-weight: 700;
+    font-size: 36px;
+    margin-right: 360px;
+    margin-top: 56px;
+    letter-spacing: -2px;
+}
+
+.nbdust2 {
+    font-family: Pretendard;
+    font-weight: 700;
+    font-size: 36px;
+    margin-right: 360px;
+    margin-top: -25px;
+    letter-spacing: -2px;
+}
+
+.cct {
+    font-family: Pretendard;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 360px;
+}
+
+.ep {
+    font-family: Pretendard;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 360px;
+}
+
+.cct2 {
+    font-family: Pretendard;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 360px;
+}
+
+.ep2 {
+    font-family: Pretendard;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 360px;
+}
