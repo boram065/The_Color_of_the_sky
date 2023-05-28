@@ -11,6 +11,7 @@
 .postField .post {
     width: 18vw;
     height: 20vw;
+    margin-bottom: 2%;
     box-sizing: border-box;
     background-color: #FFFFFF;
     display: flex;
