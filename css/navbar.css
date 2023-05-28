@@ -23,7 +23,7 @@ header .navbar {
 
 header .navbar span {
     left: 0px;
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: 800;
     color: #fff;
     font-family: 'Pretendard-Regular';
@@ -45,6 +45,7 @@ header .navbar .navbar-menu li{
 }
 
 header .navbar .navbar-menu li a{
+    font-size: 1vw;
     color: #fff;
     font-family: 'Pretendard-Regular';
     margin-bottom: 5px;
