@@ -12,89 +12,83 @@ body {
 }
 
 .box {
-    width: 800px;
-    height: 400px;
+    width: 56vw;
+    height: 28vw;
     background-color: white;
-    margin-top: 80px;
+    margin-top: 6vw;
 }
 
 .rt {
-    width: 264px;
-    height: 288px;
-    margin-left: 46px;
-    margin-top: 56px;
+    width: 18vw;
+    height: 20vw;
+    margin-left: 3vw;
+    margin-top: 4vw;
     float: left;
+    
 }
 
 .rt2 {
-    width: 264px;
-    height: 288px;
-    margin-right: 46px;
-    margin-top: 56px;
+    width: 18vw;
+    height: 20vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
     float: right;
 }
 
 .gbdust {
-    font-family: Pretendard;
+    font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 36px;
-    margin-top: 56px;
-    margin-left: 360px;
-    letter-spacing: -2px;
-    
+    font-size: 2.5vw;
+    margin-top: 4vw;
+    margin-left: 25vw;
 }
 
 .gbdust2 {
-    font-family: Pretendard;
+    font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 36px;
-    margin-top: -25px;
-    margin-left: 360px;
-    letter-spacing: -2px;
+    font-size: 2.5vw;
+    margin-left: 25vw;
 }
 
 .nbdust {
-    font-family: Pretendard;
+    font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 36px;
-    margin-right: 360px;
-    margin-top: 56px;
-    letter-spacing: -2px;
+    font-size: 2.5vw;
+    margin-right: 25vw;
+    margin-top: 4vw;
 }
 
 .nbdust2 {
-    font-family: Pretendard;
+    font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 36px;
-    margin-right: 360px;
-    margin-top: -25px;
-    letter-spacing: -2px;
+    font-size: 2.5vw;
+    margin-right: 25vw;
 }
 
 .cct {
-    font-family: Pretendard;
-    font-size: 16px;
-    margin-top: 40px;
-    margin-left: 360px;
+    font-family: 'Pretendard-Regular';
+    font-size: 1vw;
+    margin-top: 3vw;
+    margin-left: 25vw;
 }
 
 .ep {
-    font-family: Pretendard;
-    font-size: 14px;
-    margin-top: 50px;
-    margin-left: 360px;
+    font-family: 'Pretendard-Regular';
+    font-size: 1vw;
+    margin-top: 3vw;
+    margin-left: 25vw;
 }
 
 .cct2 {
-    font-family: Pretendard;
-    font-size: 16px;
-    margin-top: 40px;
-    margin-right: 360px;
+    font-family: 'Pretendard-Regular';
+    font-size: 1vw;
+    margin-top: 3vw;
+    margin-right: 25vw;
 }
 
 .ep2 {
-    font-family: Pretendard;
-    font-size: 14px;
-    margin-top: 40px;
-    margin-right: 360px;
+    font-family: 'Pretendard-Regular';
+    font-size: 1vw;
+    margin-top: 3vw;
+    margin-right: 25vw;
 }

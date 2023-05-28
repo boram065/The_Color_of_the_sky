@@ -12,49 +12,47 @@ body {
 }
 
 .box {
-    width: 270px;
-    height: 415px;
     background-color: white;
-    margin-top: 128px;
-    margin-bottom: 200px;
-    margin-right: 50px;
+    width: 19vw;
+    height: 29vw;
+    margin-top: 9vw;
+    margin-bottom: 14vw;
+    margin-right: 3vw;
 }
 
 .num {
     font-family: 'Pretendard-Regular';
-    font-size: 24px;
-    margin-left: 32px;
-    margin-top: 30px;
+    font-size: 2vw;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
 }
 
 .title {
     font-family: 'Pretendard-Regular';
-    font-size: 24px;
-    margin-left: 32px;
-    margin-top: -10px;
+    color: #000000;
+    font-size: 1.8vw;
+    margin-left: 2vw;
 }
 
 .line {
     border-top: 1px solid #000000;
-    margin: 15px auto;
-    margin-top: -5px;
-    width: 210px;  
+    margin: 1vw auto;
+    width: 15vw;
 }
 
 .wr {
-    width: 210px;
-    height: 70px;
     font-family: 'Pretendard-Regular';
-    font-size: 10px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: -5px;
+    width: 15vw;
+    height: 5vw;
+    font-size: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .image {
-    width: 260px;
-    height: 150px;
-    margin-left: 30px;
-    margin-top: 15px;
     float: left;
+    width: 19vw;
+    height: 11.5vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
 }
