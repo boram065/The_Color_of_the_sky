@@ -1,0 +1,76 @@
+form {
+    margin-top: 10%;
+    width: 60vw;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between; 
+}
+
+form #titleField {
+    width: 60vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    color: #00255E;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+form .fileUploadField {
+    width: 60vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+form .fileUploadField span {
+    color: #00255E;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+}
+
+form #pwField {
+    width: 30vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    color: #00255E;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+form button {
+    width: 20vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    background: #00255E;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
