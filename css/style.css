@@ -19,6 +19,63 @@ body {
     background: rgb(36,124,255);
 }
 
+/* header */ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar {
+    width: 60vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar span {
+    left: 0px;
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+}
+
+header .navbar span a {
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+}
+
+header .navbar .navbar-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar .navbar-menu li{
+    padding: 8px 50px;
+    float: left;
+}
+
+header .navbar .navbar-menu li a{
+    font-size: 1vw;
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+    margin-bottom: 5px;
+}
+
+header .navbar .navbar-menu li a:hover{
+    border-bottom: solid #fff 1px;
+}
+
 /* mainTitle & subTitle */
 
 article {
