@@ -6,22 +6,9 @@ body {
     background: rgb(36,124,255);
 }
 
-.mainTitle {
+.top{
+    margin-top: 10%;
     width: 60vw;
-    height: 64px;
-    font-family: 'Pretendard-Regular';
-    font-weight: bold; 
-    font-size: 40px;
-    color: white;
-    margin-top: 140px;
-    
-}
-
-.subTitle {
-    font-family: 'Pretendard-Regular';
-    font-size: 15px;
-    color: white;
-    margin-top: -25px;
 }
 
 .box {
