@@ -1,0 +1,40 @@
+.postField {
+    width: 60vw;
+    box-sizing: content-box;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.postField .post {
+    width: 18vw;
+    height: 20vw;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 24px;
+}
+
+.postField .post .imgWrap {
+    width: 14vw;
+    height: 14vw;
+}
+
+.postField .post .imgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+.postField .post .title {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
