@@ -1,3 +1,8 @@
+body{
+    background: rgb(36,124,255);
+    background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(145,186,225,1) 100%);
+}
+
 .postField {
     width: 60vw;
     box-sizing: content-box;
