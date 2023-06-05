@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/upload.css">
+    <script defer src="js/upload.js"></script>
     <title>하늘의 색따기</title>
 </head>
 <body>
@@ -29,9 +30,10 @@
                 <input type="text" name="title" id="titleField" placeholder="제목을 입력하세요">
                 <div class="fileUploadField">
                     <span>클릭하여 파일 업로드</span>
+                    <img id="upload_img" src="">
                 </div>
                 <input type="password" name="password" id="pwField" placeholder="비밀번호를 입력하세요">
-                <Button>업로드</Button>
+                <Button id="upload_btn">업로드</Button>
             </form>
         </article>
     </main>

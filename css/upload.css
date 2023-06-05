@@ -1,6 +1,7 @@
 body {
     background: rgb(36,124,255);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(145,186,225,1) 100%);
+    min-height: 1180px;
 }
 
 form {
@@ -46,6 +47,14 @@ form .fileUploadField span {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 500;
+}
+
+form .fileUploadField img {
+    opacity: 0;
+    width: 0;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 form #pwField {
