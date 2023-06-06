@@ -32,7 +32,7 @@ a {
 .navbar {
     margin-top: 3vh;
     width: 60vw;
-    height: 7vh;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,17 +40,17 @@ a {
 }
 
 .navbar_logo {
-    height: 100%;
-    width: fit-content;
+    height: 7vh;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .navbar_logo a{
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #FFFFFF;
 }
 
@@ -64,36 +64,50 @@ a {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
     color: #FFFFFF;
 }
 
+.navbar_menu li a:hover{
+    border-bottom: solid #FFFFFF 1px;
+}
+
+
 .navbar_menu li {
-    margin: 2.3vw;
+    margin-left: 2.3vw;
 }
 
 .toggle {
     display: none;
+    height: 7vh;
+    align-items: center;
     position: absolute;
-    right: 20vw;
-    margin-top: 2.2vh;
+    right: 10vw;
 }
 
 @media screen and (max-width: 820px){
     .navbar {
+        width: 80vw;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-start;
     }
+    
     .navbar_menu {
         display: none;
-        margin-top: 3vw;
+        /* margin-top: 3vh; */
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
+
+    .navbar_menu li {
+        margin-top: 3vh;
+    }
+
     .toggle {
-        display: block;
+        display: flex;
     }
     .navbar_menu.active {
         display: flex;
