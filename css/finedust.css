@@ -18,89 +18,126 @@ main {
 .box {
     width: 56vw;
     height: 28vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: white;
     margin-top: 6vw;
 }
 
-.rt {
+.rt, .rt2 {
     width: 18vw;
     height: 20vw;
+}
+
+.rt {
     margin-left: 3vw;
     margin-top: 4vw;
     float: left;
-    
 }
 
 .rt2 {
-    width: 18vw;
-    height: 20vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
+    margin-top: 3vw;
+    margin-left: 35vw;
     float: right;
 }
 
-.gbdust {
+.gbdust, .gbdust2, .nbdust, .nbdust2 {
+    width: 40vw;
+    height: 3vw;
     font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 2.5vw;
-    margin-top: 4vw;
-    margin-left: 25vw;
+    font-size: 2.3rem;
 }
 
-.gbdust2 {
+.gbdust, .nbdust {
+    margin-top: -21vw;
+}
+
+.gbdust2, .nbdust2 {
+    margin-top: -18.5vw;
+}
+
+.gbdust, .gbdust2 {
+    margin-left: 23vw;
+}
+
+.nbdust, .nbdust2 {
+    margin-right: 23vw;
+}
+
+.cct, .cct2, .ep, .ep2 {
+    width: 29vw;
+    height: 2vw;
     font-family: 'Pretendard-Regular';
-    font-weight: 700;
-    font-size: 2.5vw;
-    margin-left: 25vw;
+    font-size: 1.1rem;
 }
 
-.nbdust {
-    font-family: 'Pretendard-Regular';
-    font-weight: 700;
-    font-size: 2.5vw;
-    margin-right: 25vw;
-    margin-top: 4vw;
+.cct, .cct2 {
+    margin-top: -14vw;
 }
 
-.nbdust2 {
-    font-family: 'Pretendard-Regular';
-    font-weight: 700;
-    font-size: 2.5vw;
-    margin-right: 25vw;
+.cct, .ep {
+    margin-left: 23vw;
 }
 
-.cct {
-    font-family: 'Pretendard-Regular';
-    font-size: 1vw;
-    margin-top: 3vw;
-    margin-left: 25vw;
+.cct2, .ep2 {
+    margin-left: 3.5vw;
 }
 
-.ep {
-    font-family: 'Pretendard-Regular';
-    font-size: 1vw;
-    margin-top: 3vw;
-    margin-left: 25vw;
+.ep, .ep2 {
+    margin-top: -10vw;
 }
 
-.cct2 {
-    font-family: 'Pretendard-Regular';
-    font-size: 1vw;
-    margin-top: 3vw;
-    margin-right: 25vw;
-}
-
-.ep2 {
-    font-family: 'Pretendard-Regular';
-    font-size: 1vw;
-    margin-top: 3vw;
-    margin-right: 25vw;
-}
-
+/* 태블릿 */
 @media screen and (max-width: 820px) {
     main,
     .top,
     .box {
         width: 80vw;
     }
+
+    .gbdust, .gbdust2, .nbdust, .nbdust2 {
+        font-size: 1.7rem;
+    }
+
+    .rt2 {
+        margin-top: 4vw;
+        margin-left: 58.6vw;
+    }
+
+    .nbdust, .nbdust2 {
+        margin-left: 17vw;
+    }
+
+    .gbdust2, .nbdust2 {
+        margin-top: -18vw;
+    }
+
+    .cct, .cct2, .ep, .ep2 {
+        width: 40vw;
+    }
+    
+    .cct, .cct2{
+        font-size: 0.7rem;
+    }
+
+    .ep, .ep2 {
+        font-size: 0.7rem;
+        margin-top: -10vw;
+    }
+
+    .ep2, .cct2 {
+        margin-left: 17vw;
+    }
+
+    .cct, .cct2 {
+        margin-top: -13vw;
+    }
+
 }
+
+/* 핸드폰 */
+/* @media screen and (max-width: 480px) {
+
+} */
