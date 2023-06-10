@@ -76,6 +76,7 @@ article {
     position: absolute;
 }
 
+/* 태블릿 */
 @media screen and (max-width: 820px){
     main,
     .top,
@@ -119,5 +120,38 @@ article {
         margin-top: 35vw;
         margin-left: 5vw;
         /* 사진 크기 조정 */
+    }
+}
+
+/* 핸드폰 */
+@media screen and (max-width: 620px) {
+    .box, .num, .title {
+        width: 50vw;
+    }
+
+    .box {
+        height: 85vw;
+        margin: 6vw;
+    }
+
+    .num, .title {
+        font-size: 1.6rem;
+    }
+
+    .title {
+        margin-top: -15vw;
+    }
+
+    .line {
+        margin-top: -25vw;
+    }
+
+    .wr {
+        font-size: 0.7rem;
+        margin-top: -40vw;
+    }
+
+    .image {
+        margin-top: 47vw;
     }
 }
