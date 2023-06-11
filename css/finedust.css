@@ -38,7 +38,7 @@ main {
 
 .rt2 {
     margin-top: 4vw;
-    margin-left: 3vw;
+    margin-left: 35vw;
     float: right;
 }
 
@@ -47,7 +47,7 @@ main {
     height: 5vw;
     font-family: 'Pretendard-Regular';
     font-weight: 700;
-    font-size: 2.3rem;
+    font-size: 2.5vw;
 }
 
 .gbdust, .nbdust {
@@ -58,7 +58,7 @@ main {
     margin-top: -18.5vw;
 }
 
-.gbdust, .gbdust2 {
+.gbdust, .gbdust2, .cct, .ep {
     margin-left: 23vw; 
 }
 
@@ -71,15 +71,11 @@ main {
     width: 29vw;
     height: 2vw;
     font-family: 'Pretendard-Regular';
-    font-size: 1.1rem;
+    font-size: 1.1vw;
 }
 
 .cct, .cct2 {
     margin-top: -14vw;
-}
-
-.cct, .ep {
-    margin-left: 23vw;
 }
 
 .cct2, .ep2 {
@@ -93,9 +89,7 @@ main {
 
 /* 태블릿 */
 @media screen and (max-width: 820px) {
-    main,
-    .top,
-    .box {
+    main, .top, .box {
         width: 80vw;
     }
 
@@ -108,7 +102,7 @@ main {
         margin-left: 58.6vw;
     }
 
-    .nbdust, .nbdust2 {
+    .nbdust, .nbdust2, .ep2, .cct2 {
         margin-left: 17vw;
     }
 
@@ -118,19 +112,11 @@ main {
 
     .cct, .cct2, .ep, .ep2 {
         width: 40vw;
-    }
-    
-    .cct, .cct2{
         font-size: 0.7rem;
     }
 
     .ep, .ep2 {
-        font-size: 0.7rem;
         margin-top: -10vw;
-    }
-
-    .ep2, .cct2 {
-        margin-left: 17vw;
     }
 
     .cct, .cct2 {
@@ -142,25 +128,22 @@ main {
 /* 핸드폰 */
 @media screen and (max-width: 620px) {
     .box {
-        width: 400px;
-        height: 450px;
+        height: 87vw;
         margin: 8vw;
-   }
-
-   .rt {
-        margin-top: 7vw;
-        margin-left: 8vw;
    }
 
    .rt, .rt2 {
         width: 22vw;
         height: 22vw;
+        margin-top: 7vw;
     }
 
+    .rt, .gbdust2, .cct, .ep {
+        margin-left: 8vw;
+   }
+
    .rt2 {
-        margin-top: 7vw;
         margin-left: 49vw;
-        /* 움직이는 것 수정 */
     }
 
     .gbdust, .nbdust {
@@ -183,7 +166,6 @@ main {
 
     .gbdust2, .cct {
         margin-top: -10vw;
-        margin-left: 8vw;
     }
 
     .nbdust2, .ep2 {
@@ -203,7 +185,6 @@ main {
     }
 
     .ep {
-        margin-left: 8vw;
         margin-top: -12vw;
     }
 
