@@ -102,12 +102,17 @@ main {
         margin-left: 58.6vw;
     }
 
-    .nbdust, .nbdust2, .ep2, .cct2 {
+    .nbdust2 {
+        width: 50vw;
+        margin-left: 9vw;
+    }
+
+    .nbdust, .ep2, .cct2 {
         margin-left: 17vw;
     }
 
     .gbdust2, .nbdust2 {
-        margin-top: -18vw;
+        margin-top: -17.5vw;
     }
 
     .cct, .cct2, .ep, .ep2 {
@@ -126,7 +131,7 @@ main {
 }
 
 /* 핸드폰 */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 540px) {
     .box {
         height: 87vw;
         margin: 8vw;
