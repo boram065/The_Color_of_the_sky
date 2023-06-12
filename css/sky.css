@@ -59,16 +59,16 @@ article {
 }
 
 .wr {
-    font-family: 'Pretendard-Regular';
     width: 80vw;
     height: 5vw;
+    font-family: 'Pretendard-Regular';
     font-size: 1vw;
-    margin-top: -14vw;
+    margin-top: -15vw;
     margin-left: 2vw;
     margin-right: 2vw;
 }
 
-.image {
+.image{
     width: 100%;
     height: 35%;
     margin-left: 2vw;
@@ -76,10 +76,14 @@ article {
     position: absolute;
 }
 
+.image1 {
+    visibility: hidden;
+    position: absolute;
+}
+
+/* 태블릿 */
 @media screen and (max-width: 820px){
-    main,
-    .top,
-    article {
+    main, .top, article {
         width: 80vw;
     }
 
@@ -94,7 +98,7 @@ article {
     }
 
     .num, .title, .line, .wr {
-        margin: 5vw;
+        margin: 5vw; 
     }
 
     .num, .title {
@@ -106,18 +110,65 @@ article {
     }
 
     .line {
-        width: 45vw;
-        margin-top: -17vw;
+        width: 50vw;
+        margin-top: -19vw;
     }
 
     .wr {
         font-size: 0.8rem;
-        margin-top: -26vw;
+        margin-top: -29vw;
+    }
+
+    /* 이미지 조정 */
+    .image {
+        visibility: hidden;
+    }
+    .image1 {
+        width: 60vw;
+        height: 25vw;
+        margin-top: 31vw;
+        margin-left: 5vw;
+        visibility: visible;
+    }
+}
+
+/* 핸드폰 */
+@media screen and (max-width: 540px) {
+    .box, .num, .title {
+        width: 50vw;
+    }
+
+    .box {
+        height: 85vw;
+        margin: 6vw;
+    }
+
+    .num, .title {
+        font-size: 1.6rem;
+    }
+
+    .title {
+        margin-top: -15vw;
+    }
+
+    .line {
+        margin-top: -24vw;
+    }
+
+    .wr {
+        font-size: 0.7rem;
+        margin-top: -39vw;
     }
 
     .image {
-        margin-top: 35vw;
-        margin-left: 5vw;
-        /* 사진 크기 조정 */
+        width: 53vw;
+        height: 33vw;
+        margin-top: 45vw;
+        margin-left: 4vw;
+        visibility: visible;
+    }
+
+    .image1 {
+        visibility: hidden;
     }
 }
