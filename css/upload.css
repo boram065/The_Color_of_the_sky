@@ -1,3 +1,8 @@
+:root {
+    --color-white: #FDFDFD;
+    --color-black: #181818;
+}
+
 body {
     background: rgb(36,124,255);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(145,186,225,1) 100%);
@@ -15,38 +20,43 @@ form {
     align-content: space-between; 
 }
 
-form #titleField {
+form #titleField, form #pwField{
     width: 100%;
     height: 5vh;
     outline: none;
     border: none;
+    border-bottom: solid rgba(255, 255, 255, 0.9) 1px;
     text-align: center;
     font-family: 'Pretendard';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1rem;
-    background: rgba(255, 255, 255, 0.9);
-    color: #00255E;
-    border-radius: 20px;
+    background: none;
+    color: var(--color-white);
     margin-bottom: 2%;
+}
+
+form #titleField::placeholder, form #pwField::placeholder {
+    color: #FDFDFD
 }
 
 form .fileUploadField {
     width: 100%;
-    height: 25vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 20px;
+    background: none;
+    border: solid var(--color-white) 1px;
+    border-radius: 5px;
     margin-bottom: 2%;
 }
 
 form .fileUploadField span {
-    color: #00255E;
+    color: var(--color-white);
     font-family: 'Pretendard';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 form .fileUploadField img {
@@ -54,42 +64,26 @@ form .fileUploadField img {
     width: 0;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
-form #pwField {
+form #pwField, form button {
     width: 30vw;
     height: 5vh;
-    outline: none;
-    border: none;
-    text-align: center;
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 500;
+}
+
+form #upload_btn {
+    width: 40%;
     font-size: 1rem;
+    border: none;
     background: rgba(255, 255, 255, 0.9);
     color: #00255E;
-    border-radius: 20px;
-    margin-bottom: 2%;
-}
-
-form button {
-    width: 20vw;
-    height: 5vh;
-    outline: none;
-    border: none;
-    text-align: center;
     font-family: 'Pretendard';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    background: #00255E;
-    color: #FFFFFF;
-    border-radius: 20px;
-    margin-bottom: 2%;
+    font-weight: 400;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 720px) {
 
     article {
         width: 80vw;
@@ -103,6 +97,32 @@ form button {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+    
+
+}
+
+@media screen and (max-width: 540px) {
+
+    article {
+        width: 80vw;
+    }
+
+    form {
+        width: 80vw;
+        box-sizing: content-box;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #titleField, #titleField::placeholder,
+    .fileUploadField span,
+    #pwField, #pwField::placeholder,
+    #upload_btn {
+        font-size: 0.8rem;
     }
     
 
