@@ -6,7 +6,7 @@ fileUploadFeild.addEventListener("click", () => {
     fileUploadFeild.querySelector("span").innerHTML = "";
     img.style.opacity = 1;
     img.style.width = `100%`;
-    img.src = "images/postCover1.png";
+    img.src = "images/postCover2.jpg";
 });
 
 // TODO : 유효성 검사 하기 
