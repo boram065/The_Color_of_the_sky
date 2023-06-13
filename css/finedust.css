@@ -166,7 +166,7 @@ main {
     }
 
     .gbdust2, .nbdust2, .cct, .cct2, .ep, .ep2 {
-        width: 60vw;
+        width: 70vw;
     }
 
     .gbdust2, .cct {
@@ -177,7 +177,7 @@ main {
         margin-top: -14vw;
     }
 
-    .nbdust2 {
+    .nbdust2, .cct2, .ep2 {
         margin-right: 9vw;
     }
 
