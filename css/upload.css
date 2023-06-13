@@ -9,7 +9,7 @@ body {
     min-height: 1180px;
 }
 
-form {
+.input_section {
     margin-top: 10%;
     width: 60vw;
     box-sizing: content-box;
@@ -20,7 +20,7 @@ form {
     align-content: space-between; 
 }
 
-form #titleField, form #pwField{
+.input_section #title_input, .input_section #pw_input{
     width: 100%;
     height: 5vh;
     outline: none;
@@ -36,11 +36,11 @@ form #titleField, form #pwField{
     margin-bottom: 2%;
 }
 
-form #titleField::placeholder, form #pwField::placeholder {
+.input_section #title_input::placeholder, .input_section #pw_input::placeholder {
     color: #FDFDFD
 }
 
-form .fileUploadField {
+.input_section .fileUploadField {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -52,14 +52,14 @@ form .fileUploadField {
     margin-bottom: 2%;
 }
 
-form .fileUploadField span {
+.input_section .fileUploadField span {
     color: var(--color-white);
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400;
 }
 
-form .fileUploadField img {
+.input_section .fileUploadField img {
     opacity: 0;
     width: 0;
     height: 100%;
@@ -67,12 +67,12 @@ form .fileUploadField img {
     border-radius: 5px;
 }
 
-form #pwField, form button {
+.input_section #pw_input, .input_section button {
     width: 30vw;
     height: 5vh;
 }
 
-form #upload_btn {
+.input_section #upload_btn {
     width: 40%;
     font-size: 1rem;
     border: none;
@@ -81,6 +81,7 @@ form #upload_btn {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 720px) {
@@ -89,7 +90,7 @@ form #upload_btn {
         width: 80vw;
     }
 
-    form {
+    .input_section {
         width: 80vw;
         box-sizing: content-box;
         margin-top: 10%;
@@ -108,7 +109,7 @@ form #upload_btn {
         width: 80vw;
     }
 
-    form {
+    .input_section {
         width: 80vw;
         box-sizing: content-box;
         margin-top: 10%;
@@ -118,9 +119,9 @@ form #upload_btn {
         justify-content: space-between;
     }
 
-    #titleField, #titleField::placeholder,
+    #title_input, #title_input::placeholder,
     .fileUploadField span,
-    #pwField, #pwField::placeholder,
+    #pw_input, #pw_input::placeholder,
     #upload_btn {
         font-size: 0.8rem;
     }
