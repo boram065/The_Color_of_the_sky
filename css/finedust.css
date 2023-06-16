@@ -44,7 +44,7 @@ main {
 
 .gbdust, .gbdust2, .nbdust, .nbdust2 {
     width: 40vw;
-    height: 5vw;
+    height: 8vw;
     font-family: 'Pretendard-Regular';
     font-weight: 700;
     font-size: 2.5vw;
@@ -55,7 +55,7 @@ main {
 }
 
 .gbdust2, .nbdust2 {
-    margin-top: -18.5vw;
+    margin-top: -19vw;
 }
 
 .gbdust, .gbdust2, .cct, .ep {
@@ -112,7 +112,7 @@ main {
     }
 
     .gbdust2, .nbdust2 {
-        margin-top: -17.5vw;
+        margin-top: -18vw;
     }
 
     .cct, .cct2, .ep, .ep2 {
@@ -125,7 +125,7 @@ main {
     }
 
     .cct, .cct2 {
-        margin-top: -13vw;
+        margin-top: -13.5vw;
     }
 
 }
@@ -135,7 +135,7 @@ main {
     .box {
         height: 87vw;
         margin: 8vw;
-   }
+    }
 
    .rt, .rt2 {
         width: 22vw;
@@ -145,10 +145,10 @@ main {
 
     .rt, .gbdust2, .cct, .ep {
         margin-left: 8vw;
-   }
+    }
 
    .rt2 {
-        margin-left: 49vw;
+        margin-left: 50vw;
     }
 
     .gbdust, .nbdust {
@@ -162,7 +162,7 @@ main {
 
     .nbdust {
         margin-top: -9vw;
-        margin-left: 41vw;
+        margin-left: 42vw;
     }
 
     .gbdust2, .nbdust2, .cct, .cct2, .ep, .ep2 {
@@ -170,15 +170,15 @@ main {
     }
 
     .gbdust2, .cct {
-        margin-top: -10vw;
+        margin-top: -12.5vw;
     }
 
     .nbdust2, .ep2 {
-        margin-top: -14vw;
+        margin-top: -13.5vw;
     }
 
     .nbdust2, .cct2, .ep2 {
-        margin-right: 9vw;
+        margin-right: 8vw;
     }
 
     .cct, .cct2 {
@@ -194,6 +194,6 @@ main {
     }
 
     .cct2, .ep2 {
-        margin-left: 10vw;
+        margin-left: 9vw;
     }
 }
