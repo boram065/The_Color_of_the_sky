@@ -84,7 +84,7 @@ main {
 }
 
 /* 태블릿 */
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1024px) {
     main, .top, .box {
         width: 80vw;
     }
@@ -127,13 +127,13 @@ main {
 }
 
 /* 핸드폰 */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
     .box {
         height: 87vw;
         margin: 8vw;
     }
 
-   .rt, .rt2 {
+    .rt, .rt2 {
         width: 22vw;
         height: 22vw;
         margin-top: 7vw;

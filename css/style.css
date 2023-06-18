@@ -86,7 +86,7 @@ a {
     right: 10vw;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1024px){
     .navbar {
         width: 80vw;
         flex-direction: column;
@@ -142,7 +142,7 @@ h6 {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1024px){
     h2 {
         font-weight: 600;
         font-size: 1.6rem;
@@ -154,7 +154,7 @@ h6 {
     }
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 768px){
     h2 {
         font-family: 'Pretendard';
         font-style: normal;

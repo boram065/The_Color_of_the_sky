@@ -74,7 +74,7 @@ body {
 
 .input_section #upload_btn {
     width: 40%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: none;
     background: rgba(255, 255, 255, 0.9);
     color: #00255E;
@@ -84,7 +84,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1024px) {
 
     article {
         width: 80vw;
@@ -103,7 +103,7 @@ body {
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
 
     article {
         width: 80vw;
