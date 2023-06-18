@@ -39,14 +39,14 @@ a {
     align-content: center;
 }
 
-.navbar_logo {
+.navbar-logo {
     height: 7vh;
     display: flex;
     align-items: center;
     box-sizing: border-box;
 }
 
-.navbar_logo a{
+.navbar-logo a{
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 800;
@@ -54,13 +54,13 @@ a {
     color: #FFFFFF;
 }
 
-.navbar_menu {
+.navbar-menu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.navbar_menu li a{
+.navbar-menu li a{
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 500;
@@ -69,12 +69,12 @@ a {
     color: #FFFFFF;
 }
 
-.navbar_menu li a:hover{
+.navbar-menu li a:hover{
     border-bottom: solid #FFFFFF 1px;
 }
 
 
-.navbar_menu li {
+.navbar-menu li {
     margin-left: 2.3vw;
 }
 
@@ -101,32 +101,36 @@ a {
         width: 100%;
     }
 
-    .navbar_menu li {
+    .navbar-menu li {
         margin-top: 3vh;
     }
 
     .toggle {
         display: flex;
     }
-    .navbar_menu.active {
+    .navbar-menu.active {
         display: flex;
     }
 }
 
 /* mainTitle & subTitle */
 
-article {
+main {
     width: 60vw;
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
-article .top {
+main .top {
     margin-top: 10%;
 }
 
-h2 {
+.top {
+    margin-bottom: 10vh;
+}
+
+.main-title {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 700;
@@ -134,7 +138,7 @@ h2 {
     color: #FFFFFF;
 }
 
-h6 {
+.sub-title {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 500;
