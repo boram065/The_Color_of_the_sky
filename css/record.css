@@ -29,6 +29,7 @@ body{
 #go-upload span {
     font-family: 'Pretendard-regular';
     font-weight: 300;
+    font-size: 1rem;
 }
 
 .post {
