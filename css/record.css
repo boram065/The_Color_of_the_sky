@@ -7,32 +7,28 @@ body{
     width: 60vw;
     box-sizing: border-box;
     margin-top: 10%;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: flex-start; */
 }
 
 #go-upload {
-    width: 1vw;
+    width: 24%;
     height: 5vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    border-bottom: solid 1px #FFF;
 }
 
 #go-upload span {
+    margin-right: 12px;
+    color: #FFF;
     font-family: 'Pretendard-regular';
     font-weight: 300;
     font-size: 1rem;
 }
 
 .post {
-    width: 18vw;
+    width: 19vw;
     margin-left: 1vw;
     margin-bottom: 5%;
     box-sizing: border-box;
