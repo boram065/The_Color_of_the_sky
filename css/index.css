@@ -7,7 +7,7 @@ main {
 }
 
 main article {
-    width: 60vw;
+    width: 100%;
     box-sizing: content-box;
     position: relative;
     display: flex;
@@ -15,7 +15,7 @@ main article {
 }
 
 main article .wrap {
-    width: 60vw;
+    width: 100%;
     height: 20vw;
 }
 
@@ -27,6 +27,7 @@ main article .wrap img {
 
 .img_wrap {
     width: 35vw;
+    min-width: 250px;
 }
 
 .img_wrap img {
