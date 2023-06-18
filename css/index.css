@@ -38,11 +38,11 @@ main article .wrap img {
 #left_cloud {
     position: absolute;
     left: 0;
-    top: 55vw - 10vh;
+    bottom: 15vh;
 }
 
 #right_cloud {
     position: absolute;
     right: 0;
-    top: 45vw - 10vh;
+    bottom: 20vh;
 }
