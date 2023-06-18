@@ -8,7 +8,7 @@ fileUploadFeild.addEventListener("click", () => {
     fileUploadFeild.querySelector("span").innerHTML = "";
     img.style.opacity = 1;
     img.style.width = `100%`;
-    img.src = "images/postCover7.jpg";
+    img.src = "images/postCover9.jpg";
 });
 
 
