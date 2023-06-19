@@ -1,5 +1,8 @@
 body {
     background: rgb(36,124,255);
+    background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(0,65,143,1) 100%);
+    height: 100vh;
+    overflow: hidden;
 }
 
 main {
@@ -7,7 +10,7 @@ main {
 }
 
 main article {
-    width: 60vw;
+    width: 100%;
     box-sizing: content-box;
     position: relative;
     display: flex;
@@ -15,7 +18,7 @@ main article {
 }
 
 main article .wrap {
-    width: 60vw;
+    width: 100%;
     height: 20vw;
 }
 
@@ -27,6 +30,7 @@ main article .wrap img {
 
 .img_wrap {
     width: 35vw;
+    min-width: 250px;
 }
 
 .img_wrap img {
@@ -38,11 +42,11 @@ main article .wrap img {
 #left_cloud {
     position: absolute;
     left: 0;
-    top: 55vw - 10vh;
+    bottom: 15vh;
 }
 
 #right_cloud {
     position: absolute;
     right: 0;
-    top: 45vw - 10vh;
+    bottom: 20vh;
 }

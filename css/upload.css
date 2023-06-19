@@ -1,16 +1,17 @@
 :root {
     --color-white: #FDFDFD;
     --color-black: #181818;
+    --color-background-white: rgba(255, 255, 255, 0.9);
 }
 
 body {
     background: rgb(36,124,255);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(145,186,225,1) 100%);
-    min-height: 1180px;
+    height: 110vh;
 }
 
 .input_section {
-    margin-top: 10%;
+    margin-top: -5%;
     width: 60vw;
     box-sizing: content-box;
     display: flex;
@@ -25,7 +26,7 @@ body {
     height: 5vh;
     outline: none;
     border: none;
-    border-bottom: solid rgba(255, 255, 255, 0.9) 1px;
+    border-bottom: solid var(--color-background-white) 1px;
     text-align: center;
     font-family: 'Pretendard';
     font-style: normal;
@@ -76,7 +77,7 @@ body {
     width: 40%;
     font-size: 0.8rem;
     border: none;
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--color-background-white);
     color: #00255E;
     font-family: 'Pretendard';
     font-style: normal;
