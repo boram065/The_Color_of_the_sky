@@ -1,6 +1,7 @@
 body{
-    background: rgb(36,124,255);
+    background: rgba(145,186,225,1);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(145,186,225,1) 100%);
+    box-sizing: border-box;
 }
 
 .post-section {
