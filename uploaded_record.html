@@ -7,25 +7,30 @@
     <title>하늘의 색따기</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/record.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="icon" href="images/icon.ico">
     <script src="https://kit.fontawesome.com/5003ee7f8f.js" crossorigin="anonymous"></script>
-    <script defer src="js/main.js"></script>
+    <script defer src="js/nav.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-logo">
-            <a href="index.html">하늘의 색따기 </a>
-        </div>
-        <ul class="navbar-menu">
-            <li><a href="finedust.html">미세먼지와 하늘</a></li>
-            <li><a href="sky.html">하늘을 지키자</a></li>
-            <li><a href="record.html">하늘의 기록</a></li>
-        </ul>
-        <a href="#" class="toggle">
-            <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-        </a>
-    </nav>
+    <header>
+        <nav class="nav-container"> <!-- nav.nav.container -->
+            <a href="#" class="nav-logo">
+                <a href="index.html">하늘의 색따기 </a>
+            </a>
+
+            <ul class="nav-list">
+                <li class="nav-item"><a href="finedust.html" class="nav-link">미세먼지와 하늘</a></li>
+                <li class="nav-item"><a href="sky.html" class="nav-link">하늘을 지키자</a></li>
+                <li class="nav-item"><a href="record.html" class="nav-link">하늘의 기록</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="nav_toggle">
+                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </nav>
+    </header>
     <main>
         <section class="top">
             <h2 class="main-title">시시각각 변하는 하늘</h2>
