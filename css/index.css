@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    margin-top: 250px;
+    margin-top: 10vh;
 }
 
 main article {
@@ -49,4 +49,12 @@ main article .wrap img {
     position: absolute;
     right: 0;
     bottom: 20vh;
+}
+
+@media screen and (max-width: 1024px) {
+
+    main {
+        margin-top: 15vh;
+    }
+
 }
