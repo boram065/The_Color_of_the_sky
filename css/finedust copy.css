@@ -31,13 +31,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: -1vw;
 }
 
 .box:nth-child(even) .text-view {
     align-items: flex-end;
     text-align: right;
-    margin-right: -1vw;
 }
 
 .color-code {

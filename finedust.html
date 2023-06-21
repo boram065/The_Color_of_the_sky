@@ -10,44 +10,48 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="icon" href="images/icon.ico">
     <script src="https://kit.fontawesome.com/5003ee7f8f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script defer src="js/nav.js"></script>
+    <script defer src="js/record.js"></script>
 </head>
 <body>
     <header>
-        <nav class="nav-container"> <!-- nav.nav.container -->
-            <a href="#" class="nav-logo">
-                <a href="index.html">하늘의 색따기 </a>
-            </a>
-
-            <ul class="nav-list">
-                <li class="nav-item"><a href="finedust.html" class="nav-link">미세먼지와 하늘</a></li>
-                <li class="nav-item"><a href="sky.html" class="nav-link">하늘을 지키자</a></li>
-                <li class="nav-item"><a href="record.html" class="nav-link">하늘의 기록</a></li>
-            </ul>
-
-            <div class="nav-toggle" id="nav_toggle">
-                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
-        </nav>
+        <header>
+            <nav class="nav-container"> <!-- nav.nav.container -->
+                <a href="#" class="nav-logo">
+                    <a href="index.html">하늘의 색따기 </a>
+                </a>
+    
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="finedust.html" class="nav-link">미세먼지와 하늘</a></li>
+                    <li class="nav-item"><a href="sky.html" class="nav-link">하늘을 지키자</a></li>
+                    <li class="nav-item"><a href="record.html" class="nav-link">하늘의 기록</a></li>
+                </ul>
+    
+                <div class="nav-toggle" id="nav_toggle">
+                    <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+                </div>
+            </nav>
+        </header>
     </header>
-
     <main>
         <section class="top">
             <h2 class="main-title">오늘 하늘이 뿌옇다면</h2>
             <h6 class="sub-title">하늘의 색따기에서 미세먼지 농도를 확인해보세요</h6>
         </section>
     
-
         <article>
             <!-- 미세먼지 농도 좋음 -->
             <div class="box">
                 <div class="color-view" style="background-color:#4B93FF"></div> 
                 <div class="text-view">
                     <h1 class="color-code" style="color: #247BFE">#247BFE</h1>
-                    <h1 class="findust-title" style="color: #247BFE">미세먼지 농도 좋음</h1>
-                    <p class="findust-cct">PM10 0~30(㎍/㎥)</p>
-                    <p class="findust-info">대기오염 관련 질환군에서도 영향이 유발되지 않을 수준입니다.
-                        미세먼지부터 벗어난 맑은 하늘을 볼 수 있습니다.</p>
+                        <div class="view">
+                            <h2 class="findust-title" style="color: #247BFE">미세먼지 농도 좋음</h2>
+                            <p class="findust-cct">PM10 0~30(㎍/㎥)</p>
+                            <p class="findust-info">대기오염 관련 질환군에서도 영향이 유발되지 않을 수준입니다.
+                                미세먼지부터 벗어난 맑은 하늘을 볼 수 있습니다.</p>
+                        </div>
                 </div>
             </div>
             
@@ -56,11 +60,13 @@
                 <div class="color-view" style="background-color:#7EB8ED"></div>
                 <div class="text-view">
                     <h1 class="color-code" style="color: #7EB8ED">#7EB8ED</h1>
-                    <h1 class="findust-title" style="color: #7EB8ED">미세먼지 농도 보통</h1>
-                    <p class="findust-cct">PM10 31~80(㎍/㎥)</p>
-                    <p class="findust-info">몸 상태에 따라 유의해 활동해야 합니다.
-                        어린이나, 노인, 천식 같은 폐 질환이나 심장 질환을
-                        앓고 계신 분들에게 경미한 영향이 있을 수 있습니다.</p>
+                    <div class="view">
+                        <h2 class="findust-title" style="color: #7EB8ED">미세먼지 농도 보통</h2>
+                        <p class="findust-cct">PM10 31~80(㎍/㎥)</p>
+                        <p class="findust-info">몸 상태에 따라 유의해 활동해야 합니다.
+                            어린이나, 노인, 천식 같은 폐 질환이나 심장 질환을
+                            앓고 계신 분들에게 경미한 영향이 있을 수 있습니다.</p>
+                    </div>
                 </div>
             </div>
             
@@ -69,12 +75,14 @@
                 <div class="color-view" style="background-color:#B6C7DF;"></div>
                 <div class="text-view">
                     <h1 class="color-code" style="color:#8097BA">#247BFE</h1>
-                    <h1 class="findust-title" style="color:#8097BA">미세먼지 농도 나쁨</h1>
-                    <p class="findust-cct">PM10 81~150(㎍/㎥)</p>
-                    <p class="findust-info">폐 질환이나 심장 질환을 앓고 계신 환자분이나
-                        어린이, 노약자에게 유해한 영향을 유발합니다.
-                        일반인도 건강상의 불쾌함을 느낄 수 있으니
-                        장시간의 무리한 실외활동을 자제해주세요.</p>
+                        <div class="view">
+                            <h2 class="findust-title" style="color:#8097BA">미세먼지 농도 나쁨</h2>
+                            <p class="findust-cct">PM10 81~150(㎍/㎥)</p>
+                            <p class="findust-info">폐 질환이나 심장 질환을 앓고 계신 환자분이나
+                                어린이, 노약자에게 유해한 영향을 유발합니다.
+                                일반인도 건강상의 불쾌함을 느낄 수 있으니
+                                장시간의 무리한 실외활동을 자제해주세요.</p>
+                        </div>
                 </div>
             </div>
             
@@ -83,11 +91,13 @@
                 <div class="color-view" style="background-color:#E1D9CD"></div>
                 <div class="text-view">
                     <h1 class="color-code" style="color: #BEB8AE">#E1D9CD</h1>
-                    <h1 class="findust-title" style="color: #BEB8AE">미세먼지 농도 매우 나쁨</h1>
-                    <p class="findust-cct">PM10 151~(㎍/㎥)</p>
-                    <p class="findust-info">환자분이나 어린이, 노약자는 노출시 심각한 영향을 유발합니다.
-                        일반인에게도 목 통증과 기침과 같은 영향이 유발될 수 있으니
-                        가급적 실내에서만 활동하시고, 마스크를 착용하세요.</p>
+                        <div class="view">
+                            <h2 class="findust-title" style="color: #BEB8AE">미세먼지 농도 매우 나쁨</h2>
+                            <p class="findust-cct">PM10 151~(㎍/㎥)</p>
+                            <p class="findust-info">환자분이나 어린이, 노약자는 노출시 심각한 영향을 유발합니다.
+                                일반인에게도 목 통증과 기침과 같은 영향이 유발될 수 있으니
+                                가급적 실내에서만 활동하시고, 마스크를 착용하세요.</p>
+                        </div>
                 </div>
             </div>
         </article>
