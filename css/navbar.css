@@ -18,7 +18,7 @@ header {
 
 .nav-container {
     margin-top: 3vh;
-    width: 60vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -54,12 +54,14 @@ header {
 
 .nav-toggle {
     visibility: hidden;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
 
     .nav-container {
         justify-content: space-between;
+        width: 80%;
     }
 
     .nav-list{
