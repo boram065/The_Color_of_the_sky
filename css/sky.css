@@ -1,5 +1,5 @@
 body{
-    background: rgb(36,124,255);
+    background: rgba(147,187,224,1);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(147,187,224,1) 100%);
 }
 
@@ -22,7 +22,7 @@ article {
 }
 
 .box {
-    width: 19vw;
+    width: 18vw;
     height: 29vw;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,6 @@ article {
     position: relative;
     margin-top: 6vw;
     margin-bottom: 14vw;
-    margin-right: 4vw;
     background-color: white;
 }
 
