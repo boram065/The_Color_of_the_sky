@@ -24,6 +24,7 @@ for(let i in postsDiv){
     if(postsDiv.length > 7){
         postsDiv[0].getElementsByTagName("img")[0].src = `images/postcover/postCover9.jpg`;
         postsDiv[0].getElementsByClassName("title")[0].innerHTML = "오늘 하늘이 맑다";
+        postsDiv[i].getElementsByClassName("title")[0].innerHTML = titles[i-1];
     }
 }
 
