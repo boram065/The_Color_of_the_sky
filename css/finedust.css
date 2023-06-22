@@ -3,193 +3,98 @@ body {
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(205,175,129,1) 100%);
 }
 
-main {
-    width: 60vw;
+.box {
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center ;
+    font-family: 'Pretendard-Regular';
+    column-gap: 2vw;
+    background-color: #FFF;
+    margin-bottom: 10vh;
+    padding: 3vh 3vw;
+}
+
+.box:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.color-view {
+    width: 30%;
+    height: 80%;
+}
+
+.text-view {
+    width: 80%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.top {
-    margin-top: 10%;
-    width: 60vw;
+.box:nth-child(even) .text-view {
+    align-items: flex-end;
+    text-align: right;
 }
 
-.box {
-    width: 56vw;
-    height: 28vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: white;
-    margin-top: 6vw;
-}
-
-.rt, .rt2 {
-    width: 18vw;
-    height: 20vw;
-}
-
-.rt {
-    margin-left: 3vw;
-    margin-top: 4vw;
-}
-
-.rt2 {
-    margin-top: 4vw;
-    margin-left: 35vw;
-}
-
-.gbdust, .gbdust2, .nbdust, .nbdust2 {
-    width: 40vw;
-    height: 8vw;
-    font-family: 'Pretendard-Regular';
+.color-code {
     font-weight: 700;
     font-size: 2.5vw;
 }
 
-.gbdust, .nbdust {
-    margin-top: -21vw;
+.view {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-.gbdust2, .nbdust2 {
-    margin-top: -19vw;
+.box:nth-child(even) .view {
+    align-items: flex-end;
 }
 
-.gbdust, .gbdust2, .cct, .ep {
-    margin-left: 23vw; 
-}
-
-.nbdust, .nbdust2 {
-    margin-right: 23vw;
-}
-
-.cct, .cct2, .ep, .ep2 {
-    width: 29vw;
-    height: 2vw;
-    font-family: 'Pretendard-Regular';
-    font-size: 1.1vw;
-}
-
-.cct, .cct2 {
-    margin-top: -14vw;
-}
-
-.cct2, .ep2 {
-    margin-left: 3.5vw;
-}
-
-.ep, .ep2 {
-    margin-top: -10vw;
+p {
+    font-size: 1rem;
 }
 
 /* 태블릿 */
 @media screen and (max-width: 1024px) {
-    main, .top, .box {
-        width: 80vw;
+    .box {
+        height: 40vh;
+        margin-top: 8vw;
     }
 
-    .gbdust, .gbdust2, .nbdust, .nbdust2 {
-        font-size: 1.7rem;
+    .color-code { 
+        font-size: 3.5vw;
     }
 
-    .rt2 {
-        margin-top: 4vw;
-        margin-left: 58.6vw;
+    .findust-title {
+        font-size: 3vw;
     }
 
-    .nbdust2 {
-        width: 50vw;
-        margin-left: 9vw;
+    .findust-cct, .findust-info {
+        font-size: 1.5vw;
     }
-
-    .nbdust, .ep2, .cct2 {
-        margin-left: 17vw;
-    }
-
-    .gbdust2, .nbdust2 {
-        margin-top: -18vw;
-    }
-
-    .cct, .cct2, .ep, .ep2 {
-        width: 40vw;
-        font-size: 0.7rem;
-    }
-
-    .ep, .ep2 {
-        margin-top: -10vw;
-    }
-
-    .cct, .cct2 {
-        margin-top: -13.5vw;
-    }
-
 }
 
 /* 핸드폰 */
 @media screen and (max-width: 768px) {
     .box {
-        height: 87vw;
-        margin: 8vw;
+        height: 30vh;
     }
 
-    .rt, .rt2 {
-        width: 22vw;
-        height: 22vw;
-        margin-top: 7vw;
+    .color-code {
+        font-size: 4vw;
     }
 
-    .rt, .gbdust2, .cct, .ep {
-        margin-left: 8vw;
+    .color-view {
+        margin: 2vw 1vw;
     }
 
-   .rt2 {
-        margin-left: 50vw;
-    }
-
-    .gbdust, .nbdust {
-        font-size: 2.2rem;
-    }
-
-    .gbdust {
-        margin-top: 33vw;
-        margin-left: -22vw;
-    }
-
-    .nbdust {
-        margin-top: -9vw;
-        margin-left: 42vw;
-    }
-
-    .gbdust2, .nbdust2, .cct, .cct2, .ep, .ep2 {
-        width: 70vw;
-    }
-
-    .gbdust2, .cct {
-        margin-top: -12.5vw;
-    }
-
-    .nbdust2, .ep2 {
-        margin-top: -13.5vw;
-    }
-
-    .nbdust2, .cct2, .ep2 {
-        margin-right: 8vw;
-    }
-
-    .cct, .cct2 {
-        font-size: 1rem;
-    }
-
-    .ep, .ep2 {
-        font-size: 0.9rem;
-    }
-
-    .ep {
-        margin-top: -12vw;
-    }
-
-    .cct2, .ep2 {
-        margin-left: 9vw;
+    p {
+        font-size: 0.5rem;
     }
 }
