@@ -8,8 +8,6 @@ let titles = [
     "하늘을 이불삼아"
 ];
 
-let data = [];
-
 const goUploadDiv = document.getElementById("go-upload");
 let postsDiv = document.getElementsByClassName("post");
 let imgIndex = 1;
