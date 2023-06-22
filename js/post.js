@@ -17,13 +17,15 @@ for(let i in postsDiv){
     postsDiv[i].getElementsByTagName("img")[0].src = `images/postcover/postCover${imgIndex}.jpg`;
     imgIndex++;
 
-    // click -> 수정 페이지로 이동
-    postsDiv[i].onclick = () => {window.open("../edit.html")};
-
     // title 지정
     postsDiv[i].getElementsByClassName("title")[0].innerHTML = titles[i];
-}
 
+    // uploaded_record일 때 
+    if(postsDiv.length > 7){
+        postsDiv[0].getElementsByTagName("img")[0].src = `images/postcover/postCover9.jpg`;
+        postsDiv[0].getElementsByClassName("title")[0].innerHTML = "오늘 하늘이 맑다";
+    }
+}
 
 goUploadDiv.onclick = () => {
     window.open("../upload.html", "_top");

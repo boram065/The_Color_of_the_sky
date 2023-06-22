@@ -1,8 +1,8 @@
-const uploadBtn = document.querySelector("#upload_btn");
-const titleInput= document.querySelector("#title_input");
-const pwInput = document.querySelector("#pw_input");
-const fileUploadFeild = document.querySelector(".fileUploadField");
-const img = document.getElementById("upload_img");
+const uploadBtn = document.getElementById("upload-btn");
+const titleInput= document.getElementById("title-input");
+const pwInput = document.getElementById("pw-input");
+const fileUploadFeild = document.getElementsByClassName("file-upload-div")[0];
+const img = document.getElementById("upload-img");
 
 fileUploadFeild.addEventListener("click", () => {
     fileUploadFeild.querySelector("span").innerHTML = "";
