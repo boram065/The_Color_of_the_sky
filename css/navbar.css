@@ -18,7 +18,7 @@ header {
 
 .nav-container {
     margin-top: 3vh;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -53,6 +53,7 @@ header {
 }
 
 .nav-toggle {
+    display: none;
     visibility: hidden;
     cursor: pointer;
 }
@@ -91,6 +92,7 @@ header {
     }
 
     .nav-toggle {
+        display: block;
         visibility: visible;
     }
 
