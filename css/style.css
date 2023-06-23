@@ -18,7 +18,9 @@
 
     --font-d-basic: 1rem;
     --font-d-large: 2rem;
-    --font-m-basic: 0.8rem;
+    --font-t-large: 1.6rem;
+    --font-t-basic: 0.8rem;
+    --font-basic: 'Pretendard-Regular';
 }
 
 body {
@@ -58,7 +60,7 @@ main .top {
 }
 
 .main-title {
-    font-family: 'Pretendard-Regular';
+    font-family: var(--font-basic);
     font-style: normal;
     font-weight: 700;
     font-size: var(--font-d-large);
@@ -66,7 +68,7 @@ main .top {
 }
 
 .sub-title {
-    font-family: 'Pretendard-Regular';
+    font-family: var(--font-basic);
     font-style: normal;
     font-weight: 500;
     font-size: var(--font-d-basic);
@@ -94,18 +96,12 @@ article {
 
 @media screen and (max-width: 768px){
     .main-title {
-        font-family: 'Pretendard-Regular';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.2rem;
-        color: #FFFFFF;
+        font-weight: 700;
+        font-size: var(--font-t-large);
     }
     
     .sub-title {
-        font-family: 'Pretendard-Regular';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 0.6rem;
-        color: #FFFFFF;
+        font-weight: 500;
+        font-size: var(--font-t-basic);
     }
 }
