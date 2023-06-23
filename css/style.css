@@ -47,7 +47,7 @@ main .top {
 }
 
 .main-title {
-    font-family: 'Pretendard';
+    font-family: 'Pretendard-Regular';
     font-style: normal;
     font-weight: 700;
     font-size: 2rem;
@@ -55,7 +55,7 @@ main .top {
 }
 
 .sub-title {
-    font-family: 'Pretendard';
+    font-family: 'Pretendard-Regular';
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
@@ -83,7 +83,7 @@ article {
 
 @media screen and (max-width: 768px){
     .main-title {
-        font-family: 'Pretendard';
+        font-family: 'Pretendard-Regular';
         font-style: normal;
         font-weight: 500;
         font-size: 1.2rem;
@@ -91,7 +91,7 @@ article {
     }
     
     .sub-title {
-        font-family: 'Pretendard';
+        font-family: 'Pretendard-Regular';
         font-style: normal;
         font-weight: 300;
         font-size: 0.6rem;
