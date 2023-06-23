@@ -79,6 +79,41 @@ article {
     width: 100%;    
 }
 
+footer {
+    width: 100%;
+    height: 150px;
+
+    justify-self: flex-end;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: var(--color-white);
+    font-size: var(--font-t-basic);
+}
+
+footer .name, footer .email{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--color-white);
+    font-size: var(--font-t-basic);
+    font-family: var(--font-basic);
+}
+
+footer span {
+    color: var(--color-white);
+    font-size: var(--font-t-basic);
+    font-family: var(--font-basic);
+}
+
+
+
 @media screen and (max-width: 1024px){
     main {
         width: 80%;
@@ -104,4 +139,22 @@ article {
         font-weight: 500;
         font-size: var(--font-t-basic);
     }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .name, footer .email{
+        width: 80vw;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10px;
+        color: var(--color-white);
+        font-size: var(--font-t-basic);
+        font-family: var(--font-basic);
+    }
+
+    
 }
