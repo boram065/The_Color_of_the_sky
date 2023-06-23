@@ -1,18 +1,24 @@
 :root {
     --color-white: #FDFDFD;
     --color-black: #181818;
+    --color-navy: #00255E;
     --color-background-white: rgba(255, 255, 255, 0.9);
+
+    --font-d-basic: 1rem;
+    --font-m-basic: 0.8rem;
 }
 
 body {
-    background:rgba(145,186,225,1);
+    background: rgba(145,186,225,1);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(145,186,225,1) 100%);
 }
 
 .input-section {
-    margin-top: -5%;
     width: 60vw;
     box-sizing: content-box;
+
+    margin-top: -5%;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,20 +26,24 @@ body {
     align-content: space-between; 
 }
 
-.input-section #title-input, .input-section #pw-input{
+#title-input, #pw-input{
     width: 100%;
     height: 5vh;
+
+    margin-bottom: 2%;
+
     outline: none;
     border: none;
     border-bottom: solid var(--color-background-white) 1px;
+
     text-align: center;
-    font-family: 'Pretendard';
+    font-family: 'Pretendard-Regular';
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
-    background: none;
+    font-size: var(--font-d-basic);
     color: var(--color-white);
-    margin-bottom: 2%;
+
+    background: none;
 }
 
 .input-section #title-input::placeholder, .input-section #pw-input::placeholder {
@@ -77,7 +87,7 @@ body {
     font-size: 0.8rem;
     border: none;
     background: var(--color-background-white);
-    color: #00255E;
+    color: var(--color-navy);
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400;
@@ -87,14 +97,12 @@ body {
 
 @media screen and (max-width: 1024px) {
 
-    article {
-        width: 80vw;
-    }
-
     .input-section {
         width: 80vw;
         box-sizing: content-box;
+
         margin-top: 10%;
+
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -106,14 +114,12 @@ body {
 
 @media screen and (max-width: 768px) {
 
-    article {
-        width: 80vw;
-    }
-
     .input-section {
         width: 80vw;
         box-sizing: content-box;
+
         margin-top: 10%;
+
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -124,7 +130,7 @@ body {
     .file-upload-div span,
     #pw-input, #pw-input::placeholder,
     #upload-btn {
-        font-size: 0.8rem;
+        font-size: var(--font-m-basic);
     }
     
     .input-section #pw-input, .input-section #upload-btn {
