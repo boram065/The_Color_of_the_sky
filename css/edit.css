@@ -127,5 +127,13 @@ body {
         font-size: 0.8rem;
     }
     
+    #update-btn, #delete-btn {
+        width: 80vw;
+        margin-bottom: 2%;
+    }
+
+    #update-btn {
+        margin-bottom: 10vh;
+    }
 
 }
