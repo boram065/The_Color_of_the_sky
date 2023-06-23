@@ -127,5 +127,8 @@ body {
         font-size: 0.8rem;
     }
     
-
+    .input-section #pw-input, .input-section #upload-btn {
+        width: 80vw;
+        height: 5vh;
+    }
 }
