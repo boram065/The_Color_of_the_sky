@@ -80,11 +80,13 @@ img {
 
     .post {
         width: 36vw;
-        /* min-width: 100px;
-        min-height: none; */
     }
     
     .title {
         font-size: 0.6rem;
+    }
+
+    #go-upload {
+        min-width: 120px;
     }
 }
