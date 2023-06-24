@@ -27,7 +27,7 @@ updateBtn.addEventListener("click", ()=>{
         return;
     }
 
-    window.open("../uploaded_record.html", "_top");  
+    window.open("../record.html", "_top");  
 });
 
 deleteBtn.addEventListener("click", ()=>{
