@@ -109,6 +109,7 @@ p {
     .box {
         height: 70vh;
         flex-direction: column;
+        align-items: center;
     }
 
     .box:nth-child(even) {
@@ -130,11 +131,11 @@ p {
     }
 
     .box:nth-child(odd) .color-view {
-        margin-right: 40vw;
+        margin-right: 55%;
     }
 
     .box:nth-child(even) .color-view {
-        margin-left: 40vw;
+        margin-left: 55%;
     }
 
     .view {
