@@ -39,6 +39,8 @@ article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+    position: relative;
     
     background-color: var(--color-white);
 }
