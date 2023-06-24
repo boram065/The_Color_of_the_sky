@@ -106,7 +106,7 @@ p {
 /* 핸드폰 */
 @media screen and (max-width: 768px) {
     .box {
-        height: 65vh;
+        height: 50vh;
         flex-direction: column;
         align-items: center;
     }
@@ -138,7 +138,7 @@ p {
     }
 
     .view {
-        height: 60%;
+        height: 80%;
     }
 
     .findust-title {
@@ -146,11 +146,11 @@ p {
     }
 
     .findust-cct {
-        font-size: 2.5vw;
+        font-size: var(--font-t-basic);
     }
 
     .findust-info {
         width: 55vw;
-        font-size: 2.3vw;
+        font-size: var(--font-d-basic);
     }
 }
