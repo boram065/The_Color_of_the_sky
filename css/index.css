@@ -1,7 +1,6 @@
 body {
     background: rgba(0,65,143,1);
     background: linear-gradient(180deg, rgba(36,124,255,1) 0%, rgba(0,65,143,1) 100%);
-    height: 100vh;
 }
 
 main {
@@ -10,7 +9,7 @@ main {
 
 main article {
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     box-sizing: content-box;
     display: flex;
     justify-content: center;
