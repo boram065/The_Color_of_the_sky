@@ -120,7 +120,7 @@ p {
     }
 
     .color-code {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .color-view {
@@ -138,19 +138,19 @@ p {
     }
 
     .view {
-        height: 65%;
+        height: 60%;
     }
 
     .findust-title {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .findust-cct {
-        font-size: 3.3vw;
+        font-size: 2.5vw;
     }
 
     .findust-info {
         width: 55vw;
-        font-size: 2.7vw;
+        font-size: 2.3vw;
     }
 }
