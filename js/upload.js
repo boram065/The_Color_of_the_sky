@@ -31,12 +31,10 @@ uploadBtn.addEventListener("click", ()=>{
         return;
     }
 
-    // TODO: 숫자가 아닐 경우
     if(pw.length < 4){
         alert("비밀번호는 4자리 이상 숫자입니다.");
         return;
     }
 
-    // TODO: open하고 현재 창 닫기
-    window.open("../uploaded_record.html", "_top");  
+    window.open("../record.html", "_top");  
 });

@@ -22,7 +22,7 @@ updateBtn.addEventListener("click", ()=>{
         return;
     }
 
-    if(!(pw === "1234")){
+    if(pw !== "1234"){
         alert("비밀번호가 잘못되었습니다.");
         return;
     }
@@ -30,7 +30,7 @@ updateBtn.addEventListener("click", ()=>{
     window.open("../uploaded_record.html", "_top");  
 });
 
-updateBtn.addEventListener("click", ()=>{
+deleteBtn.addEventListener("click", ()=>{
     let pw = pwInput.value;
     if(pw.length < 4){
         alert("비밀번호는 4자리 이상 숫자입니다.");
